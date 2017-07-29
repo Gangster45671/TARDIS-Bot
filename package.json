@@ -1,0 +1,11 @@
+{
+  "name": "TARDIS",
+  "version": "1.0.0",
+  "description": "It's Smaller On The Inside...",
+  "main": "bot.js",
+  "author": "LuigiPizzolito YT-TARDISREDSTONE",
+  "dependencies": {
+    "discord.io": "^2.5.1",
+    "winston": "^2.3.1"
+  }
+}
