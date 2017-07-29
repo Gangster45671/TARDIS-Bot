@@ -64,13 +64,6 @@ var factArray =
 'In 1995, Steven Moffat posted a "particularly stupid" fan theory to a Doctor Who news group. Sixteen years later, he used it as part of the plot of "A Good Man Goes to War".' 
 ];
 
-//resposes for 'sup?'
-var supArray =
-[
-'How are you doing ',
-'The celling is up. Arent you suppost to know that '
-];
-
 //thousands of yomama jokes
 var yomamaArray =
 [
@@ -1116,6 +1109,7 @@ var yomamaArray =
 "Yo mama\'s so smart that an employee from Wikipedia calls her when they need to verify facts about 18th century political figures."
 ];
 
+//dw inspired yomama jokes
 var yomamadw =
 [
 "Yo mama\'s so fat, the cyberman DOWNgraded her.",
@@ -1134,10 +1128,109 @@ var yomamadw =
 "Yo mama\'s so fat, it doesn\'t matter that the Tardis is bigger on the inside. She can\'t get through the door."
 ];
 
+//dw quotes
+var quotes = 
+[
+"\"The universe is big. It’s vast and complicated and ridiculous. And sometimes, very rarely, impossible things just happen and we call them miracles.\" — The Doctor, Season 5, Episode 12",
+"\"You want weapons? We’re in a library! Books! The best weapons in the world!\" — The Doctor, Season 2, Episode 2",
+"\"Amy Pond, there’s something you’d better understand about me ‘cause it’s important, and one day your life may depend on it: I am definitely a mad man with a box!\" — The Doctor, Season 5, Episode 1.",
+"\"When you’re a kid, they tell you it’s all… Grow up, get a job, get married, get a house, have a kid, and that’s it. But the truth is, the world is so much stranger than that. It’s so much darker. And so much madder. And so much better.\" — Elton Pope, Season 2, Episode 10.",
+"\"The way I see it, every life is a pile of good things and bad things. The good things don’t always soften the bad things, but vice versa, the bad things don’t always spoil the good things and make them unimportant.\" — The Doctor, Season 5, Episode 10",
+"\"Some people live more in 20 years than others do in 80. It’s not the time that matters, it’s the person.\" — The Doctor, Season 3, Episode 6",
+"\"Do what I do. Hold tight and pretend it’s a plan!\" —The Doctor, Season 7, Christmas Special",
+"\"In 900 years of time and space, I’ve never met anyone who wasn’t important\" — The Doctor, Season 6, Christmas Special",
+"\"900 years of time and space, and I’ve never been slapped by someone’s mother.\" —The Doctor, Season 1, Episode 4",
+"\"Never ignore coincidence. Unless, of course, you’re busy. In which case, always ignore coincidence.\" — The Doctor, Season 5, Episode 12",
+"\"There’s a lot of things you need to get across this universe. Warp drive… wormhole refractors… You know the thing you need most of all? You need a hand to hold.\" — The Doctor, Season 6, Episode 6",
+"\"This is who I am, right here, right now, all right? All that counts is here and now, and this is me!\" — The Doctor, Season 1, Episode 2",
+"\"I am and always will be the optimist. The hoper of far-flung hopes and the dreamer of improbable dreams.\" — The Doctor, Season 6, Episode 6",
+"\"Everybody knows that everybody dies. But not every day. Not today. Some days are special. Some days are so, so blessed. Some days, nobody dies at all. Now and then, every once in a very long while, every day in a million days, when the wind stands fair and the Doctor comes to call, everybody lives.\" — River Song, Season 6, Episode 13",
+"\"We’re all stories, in the end. Just make it a good one, eh?\"— The Doctor, Season 5, Episode 13",
+"\"Letting it get to you. You know what that’s called? Being alive. Best thing there is. Being alive right now is all that counts.\" — The Doctor, Season 6, Episode 4",
+"\"Always take a banana to a party, Rose: bananas are good!\"— The Doctor, Season 2, Episode 4",
+"\"You don’t just give up. You don’t just let things happen. You make a stand! You say no! You have the guts to do what’s right, even when everyone else just runs away.\"— Rose Tyler, Season 1, Episode 13",
+"\"This is one corner… of one country, in one continent, on one planet that’s a corner of a galaxy that’s a corner of a universe that is forever growing and shrinking and creating and destroying and never remaining the same for a single millisecond. And there is so much, so much to see.\"— The Doctor, Season 7, Episode 4",
+"\"Rose, before I go, I just want to tell you: you were fantastic. Absolutely fantastic. And you know what? So was I.\" — The Doctor, Season 1, Episode 13",
+"\"Run … run, you clever boy … and remember.\"",
+"\"Is there a word for total screaming genius that sounds modest and a tiny bit sexy?\"",
+"\"Do you know how you make someone into a Dalek? Subtract love, add anger.\"",
+"\"When you say mobile phone, why do you point at that blue box?\"",
+"\"That wasn’t a leaf. That was page one.\"",
+"\"Have we just watched the entire life cycle of Earth? Birth to death?\"",
+"\"To you, I’m a ghost. We’re all ghosts to you. We must be nothing.\"",
+"\"I think I'm more scared of you right now than anything else on that Tardis.\"",
+"\"Okay. I don't know what the hell this is about, but the hug is really nice.\"",
+"\"You call yourself \"Doctor\" — why do you do that? You have a name, I saw it.\"",
+"\"Well, how about that? I’m Soufflé Girl after all.\"",
+"\"Don’t steal that one, steal this one. The navigation system’s knackered but you'll have much more fun.\"",
+"\"Doctor? Doctor who?\"",
+"\"What's wrong with dangerous?\"",
+"\"But it's... Look at it, it's......smaller on the outside.\"",
+"\"Geronimo!\"",
+"\"Fantastic!\"",
+"\"Don't forget to subscribe to the offical Doctor Who youtube channel.\"",
+"\"Clara!\"",
+"\"No, wait, hang on. I know what I need. I need… I need… I need… fish fingers… and custard!\"",
+"\"Hello. I’m The Doctor. Basically… run.\"",
+"\"Who da man?!\"",
+"\"The Doctor: “Didn’t anyone ever tell you? There’s one thing you never put in a trap. If you’re smart, if you value your continued existence, if you have any plans about seeing tomorrow, there’s one thing you never, ever put in a trap.”\nAngel Bob: “And what would that be, sir?”\nThe Doctor: “Me.”\"",
+"\"Bow ties are cool.\"",
+"\"It’s a fez. I wear a fez now. Fezes are cool.\"",
+"\"The name I chose is ‘The Doctor.’ The name you choose is like a promise you make.\""
+];
+
+//resposes for 'sup?'
+var supArray =
+[
+'How are you doing ',
+'The celling is up. Arent you suppost to know that '
+];
+
+//responses for 'hi'
+var helloArray =
+[
+'Hi',
+'What\'s up?',
+'Hi There.',
+'Hello',
+];
+
+//responses for 'lol'
+var lolArray =
+[
+'lol',
+'haha',
+'Whats so funny?'
+];
+
+//responses for 'bye'
+var byeArray =
+[
+'I\'ll see you when I see you',
+'cya',
+'bye',
+'bye bye',
+'cyl',
+'see ya'
+];
+
+//responses for ''
+var stupidArray =
+[
+'Hey I exist across all of time and space!\n How dare you insult me!'
+];
+
+// //responses for ''
+// var _Array =
+// [
+// '',
+// ''
+// ];
+
 bot.on('message', function (user, userID, channelID, message, evt) {
-    // Our bot needs to know if it will execute a command
+    // commands
     // It will listen for messages that will start with `/`
-    if (message.substring(0, 1) == '/') {
+    if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
        
@@ -1148,7 +1241,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'help':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'TARDIS Bot Help:\n   Commands:\n      /help  -  shows this help message.\n      /fact  -  shows a random Doctor Who fact.\n      /ymama  -  shows a random Yo Mama! Joke.\n      /ymamadw  -  shows a random Doctor Who inspired Yo Mama! Joke.\n  The TARDIS Bot will also respond to general text messages.'
+                    message: 'TARDIS Bot Help:\n   Commands:\n      !help  -  shows this help message.\n      !fact  -  shows a random Doctor Who fact.\n      !quote  -  shows a random Doctor Who quote.\n      !ymama  -  shows a random Yo Mama! Joke.\n      !ymamadw  -  shows a random Doctor Who inspired Yo Mama! Joke.\n  The TARDIS Bot will also respond to general text messages.'
                 });
                 logger.info('Executed: Help');
             break;
@@ -1198,23 +1291,96 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 logger.info('Executed: yomamadw!');
             break;
 
+            // !quote
+            case 'quote':
+                //generate a random quote from the quote array and send to the channel as a message
+                var random = Math.floor(Math.random()*quotes.length);
+                var message = quotes[random];
+                bot.sendMessage({
+                    to: channelID,
+                    message: message
+                });
+                logger.info('Executed: Quotes');
+            break;
+
             // Just add any case commands if you want to..
          }
      }
 
-     switch(message) {
-         // sup
-            case 'sup':
-                //generate a random sup respons from the sup array and send to the channel as a message
-                var random = Math.floor(Math.random()*supArray.length);
-                var message = supArray[random];
-                bot.sendMessage({
-                    to: channelID,
-                    message: message+user+'?'
-                });
-                logger.info('Replied To: sup');
-            break;
 
-            //Just add any chat responses if you want to..
-     }
+// chat responses
+if (user !== 'TARDIS') {
+    if (message.toLowerCase().includes("sup") || message.toLowerCase().includes("wassup") || message.toLowerCase().includes("wasup") || message.toLowerCase().includes("whats up") || message.toLowerCase().includes("what's up")) {
+             // sup
+                   //generate a random responses from the array and send to the channel as a message
+                    var random = Math.floor(Math.random()*supArray.length);
+                    var message = supArray[random];
+                    bot.sendMessage({
+                        to: channelID,
+                        message: message+user+'?'
+                    });
+                    logger.info('Replied sup to '+user);
+         }  
+    
+        if (message.toLowerCase().includes("hi") || message.toLowerCase().includes("hello") || message.toLowerCase().includes("hey") || message.toLowerCase().includes("hola") || message.toLowerCase().includes("howdy")) {
+                // hello
+                    //generate a random responses from the array and send to the channel as a message
+                    var random = Math.floor(Math.random()*helloArray.length);
+                    var message = helloArray[random];
+                    bot.sendMessage({
+                        to: channelID,
+                        message: message
+                    });
+                    logger.info('Replied hello to '+user);
+         }
+
+        if (message.toLowerCase().includes("lol") || message.toLowerCase().includes("haha") || message.toLowerCase().includes("lmao")) {
+                    // lol
+                            //generate a random responses from the array and send to the channel as a message
+                            var random = Math.floor(Math.random()*lolArray.length);
+                            var message = lolArray[random];
+                            bot.sendMessage({
+                                to: channelID,
+                                message: message
+                            });
+                    logger.info('Replied lol to '+user);
+                 }
+
+        if (message.toLowerCase().includes("see you") || message.toLowerCase().includes("cya") || message.toLowerCase().includes("bye") || message.toLowerCase().includes("see ya") || message.toLowerCase().includes("ttyl") || message.toLowerCase().includes("talk to you later") || message.toLowerCase().includes("cyl")) {
+            // bye
+                    //generate a random responses from the array and send to the channel as a message
+                    var random = Math.floor(Math.random()*byeArray.length);
+                    var message = byeArray[random];
+                    bot.sendMessage({
+                        to: channelID,
+                        message: message
+                    });
+            logger.info('Replied bye to '+user);
+         }
+
+         if (message.toLowerCase().includes("stupid") || message.toLowerCase().includes("dumb") || message.toLowerCase().includes("is that all")) {
+            // stupid
+                    //generate a random responses from the array and send to the channel as a message
+                    var random = Math.floor(Math.random()*stupidArray.length);
+                    var message = stupidArray[random];
+                    bot.sendMessage({
+                        to: channelID,
+                        message: message
+                    });
+            logger.info('Replied stupid to '+user);
+         }
+
+         // // add more respnses
+         // if (message.toLowerCase().includes("") || message.toLowerCase().includes("")) {
+         //    // _
+         //            //generate a random responses from the array and send to the channel as a message
+         //            var random = Math.floor(Math.random()*_Array.length);
+         //            var message = _Array[random];
+         //            bot.sendMessage({
+         //                to: channelID,
+         //                message: message
+         //            });
+         //    logger.info('Replied _ to '+user);
+         // }
+ }
 });
